@@ -1,0 +1,36 @@
+@path-bootstrap: '../../components/bootstrap/less/';
+@path-jasny: '../../components/jasny-bootstrap/less/';
+@path-ionicons: '../../components/Ionicons/less/';
+
+@import 'var-bootstrap.less';
+@import 'var-jasny.less';
+
+// Mixins
+@import '@{path-bootstrap}mixins.less';
+
+// Reset
+@import '@{path-bootstrap}normalize.less';
+@import '@{path-bootstrap}print.less';
+
+// Core CSS
+@import '@{path-bootstrap}scaffolding.less';
+@import '@{path-bootstrap}type.less';
+@import '@{path-bootstrap}grid.less';
+@import '@{path-bootstrap}forms.less';
+@import '@{path-bootstrap}buttons.less';
+
+// Icons
+@import '@{path-ionicons}ionicons.less';
+
+// Components
+@import '@{path-bootstrap}navs.less';
+@import '@{path-bootstrap}navbar.less';
+@import '@{path-bootstrap}jumbotron.less';
+
+// Offcanvas
+@import '@{path-jasny}navmenu.less';
+@import '@{path-jasny}offcanvas.less';
+
+// Utility Classes
+@import '@{path-bootstrap}utilities.less';
+@import '@{path-bootstrap}responsive-utilities.less';
